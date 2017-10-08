@@ -3,9 +3,7 @@ void setup() {
   //Set Windows size
   size(500,500); 
 } 
-  
-  
-void draw() {
+  void draw() {
   background(#000000);
   //draw ellipse with mouse coord
   fill(#F72A46);
@@ -15,8 +13,7 @@ void draw() {
   //write text
   fill(#ffffff);
   //text("Hello I'm back",20,20);
-  
-  //draw rectangle
+   //draw rectangle
   strokeWeight(8);
   stroke(#0F19FF);
   fill(#E0FA3A);
@@ -48,7 +45,6 @@ rect(300,300,50,100);
  fill(#E0FA3A);
  triangle(220,70,430,70,430,278);
  triangle(20,430,20,240,160,430);
- 
  fill(#000000);
  line(25,20,25,80);
  line(75,25,475,25);
